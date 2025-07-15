@@ -273,7 +273,7 @@
                                 <small class="flex-fill text-center py-2"><i
                                         class="fa fa-user me-2"></i>{{ $package->package_person }} Person</small>
                             </div>
-                            <div class="packages-price py-2 px-4">PKR {{ $package->package_price }}</div>
+                            {{-- <div class="packages-price py-2 px-4">PKR {{ $package->package_price }}</div> --}}
                         </div>
                         <div class="packages-content bg-light">
                             <div class="p-4 pb-0">
