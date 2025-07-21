@@ -27,33 +27,23 @@
                     style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(frontend/img/about-img-1.png);">
                     <h5 class="section-about-title pe-3">About Us</h5>
                     <h1 class="mb-4">Welcome to <span class="text-primary">SH Travel</span></h1>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolorum, doloribus
-                        sunt dicta, officia voluptatibus libero necessitatibus natus impedit quam ullam assumenda? Id atque
-                        iste consectetur. Commodi odit ab saepe!</p>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos voluptatem
-                        suscipit neque enim, doloribus ipsum rem eos distinctio, dignissimos nisi saepe nulla? Libero
-                        numquam perferendis provident placeat molestiae quia?</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Premium City Tours</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Read More</a>
+                    <p class="mb-4"> FOUNDED IN 2022 AND REGISTERED IN 2023.
+                        Travel with SH adventure is Pakistan first online marketplace for people to search, compare,
+                        discover and book trips, tours and travel experiences across Pakistan at any price point. You can
+                        follow out activities from our listings and join a pre-arranged tour with like-minded travel
+                        enthusiasts.</p>
+                    <p class="mb-4">We wander/travel not to get lost but to seek life in nature. You can't find your
+                        happiness only at one station you arrive at but in a consistent exposure of the world's souls and
+                        places through traveling.</p>
+
+                    <p class="mb-4">We don't keep our one destination because we believe in evolving every next point to
+                        find life in it. We carry this life with us and strain to renew our capacity to wonder. Our team is
+                        determined to show the world the beauty of Pakistan in every manner.</p>
+                    <p class="mb-4">
+                        As a trusted travel platform, Travel with SH adventure connects Pakistan vibrant cultures and
+                        fascinating landscapes with the rest of the world.
+                    </p>
+                    {{-- <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Read More</a> --}}
                 </div>
             </div>
         </div>

@@ -26,34 +26,23 @@
                     style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(frontend/img/about-img-1.png);">
                     <h5 class="section-about-title pe-3">About Us</h5>
                     <h1 class="mb-4">Welcome to <span class="text-primary">SH Travel</span></h1>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolorum,
-                        doloribus sunt dicta, officia voluptatibus libero necessitatibus natus impedit quam ullam
-                        assumenda? Id atque iste consectetur. Commodi odit ab saepe!</p>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos voluptatem
-                        suscipit neque enim, doloribus ipsum rem eos distinctio, dignissimos nisi saepe nulla? Libero
-                        numquam perferendis provident placeat molestiae quia?</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Premium City Tours
-                            </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Read More</a>
+                    <p class="mb-4"> FOUNDED IN 2022 AND REGISTERED IN 2023.
+                        Travel with SH adventure is Pakistan first online marketplace for people to search, compare,
+                        discover and book trips, tours and travel experiences across Pakistan at any price point. You can
+                        follow out activities from our listings and join a pre-arranged tour with like-minded travel
+                        enthusiasts.</p>
+                    <p class="mb-4">We wander/travel not to get lost but to seek life in nature. You can't find your
+                        happiness only at one station you arrive at but in a consistent exposure of the world's souls and
+                        places through traveling.</p>
+
+                    <p class="mb-4">We don't keep our one destination because we believe in evolving every next point to
+                        find life in it. We carry this life with us and strain to renew our capacity to wonder. Our team is
+                        determined to show the world the beauty of Pakistan in every manner.</p>
+                    <p class="mb-4">
+                        As a trusted travel platform, Travel with SH adventure connects Pakistan vibrant cultures and
+                        fascinating landscapes with the rest of the world.
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="{{ route('about') }}">Read More</a>
                 </div>
             </div>
         </div>
@@ -78,9 +67,13 @@
                                 </div>
                                 <div class="service-content">
                                     <h5 class="mb-4">WorldWide Tours</h5>
-                                    <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit
-                                        expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore
-                                        consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                    <p class="mb-0">
+                                        Northern Pakistan is a stunning region filled with towering mountains, lush valleys,
+                                        and rich culture.
+                                        Tour packages include everything: transport, food, accommodation, and guided tours.
+                                        You can explore scenic areas like Hunza, Swat, and Skardu.
+                                        Each journey is well-organized for a smooth experience.
+                                        From nature to history, there's something for everyone.
                                     </p>
                                 </div>
                             </div>
@@ -94,18 +87,23 @@
                                 </div>
                                 <div class="service-content">
                                     <h5 class="mb-4">Travel Guides</h5>
-                                    <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit
-                                        expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore
-                                        consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                    <p class="mb-0">
+                                        Professional travel guides ensure your journey is safe and informative.
+                                        Transport options include cars, coasters, and 4x4 jeeps.
+                                        For remote areas, domestic flights like Islamabad to Skardu are arranged.
+                                        Airport transfers and intercity travel are also included.
+                                        All routes are carefully planned for comfort.
+                                        Guides share local stories and cultural insights.
+                                        Your tour becomes more meaningful with expert guidance.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-6">
                     <div class="row g-4">
-
                         <div class="col-12">
                             <div
                                 class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
@@ -114,9 +112,14 @@
                                 </div>
                                 <div class="service-content">
                                     <h5 class="mb-4">Hotel Reservation</h5>
-                                    <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit
-                                        expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore
-                                        consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                    <p class="mb-0">
+                                        Enjoy cozy and clean accommodations throughout your trip.
+                                        Hotels are selected based on comfort, safety, and location.
+                                        You’ll stay close to tourist spots and scenic views.
+                                        Options range from luxury to traditional guesthouses.
+                                        Rooms are equipped with basic amenities and local charm.
+                                        Tour plans can be adjusted to match your comfort level.
+                                        A peaceful stay is part of the complete travel experience.
                                     </p>
                                 </div>
                             </div>
@@ -129,19 +132,26 @@
                                     <i class="fa fa-cog fa-4x text-primary"></i>
                                 </div>
                                 <div class="service-content">
-                                    <h5 class="mb-4">Event Management</h5>
-                                    <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit
-                                        expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore
-                                        consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                    <h5 class="mb-4">Food</h5>
+                                    <p class="mb-0">
+                                        Tour packages offer delicious meals with local flavors.
+                                        Breakfast is usually included, and some tours include all meals.
+                                        Enjoy traditional dishes like chapli kebab and daal chawal.
+                                        Hunza’s apricot soup and walnut cake are popular treats.
+                                        Food is served in hygienic restaurants or hotel dining areas.
+                                        We also consider special dietary needs.
+                                        Great food makes your travel experience unforgettable.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-12">
                     <div class="text-center">
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Service More</a>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="{{ route('service') }}">Service
+                            More</a>
                     </div>
                 </div>
             </div>
@@ -159,8 +169,8 @@
             <div class="tab-class text-center">
                 <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
                     <li class="nav-item">
-                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active"
-                            data-bs-toggle="pill" href="#tab-all">
+                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill"
+                            href="#tab-all">
                             <span class="text-dark" style="width: 150px;">All</span>
                         </a>
                     </li>
@@ -491,8 +501,9 @@
                         <div class="mt-3">
                             <h5 class="mb-0">{{ $review->name }}</h5>
                             <div class="d-flex justify-content-center">
-                                @for($i = 1; $i <= 5; $i++)
-                                    <i class="fas fa-star {{ $i <= $review->rating ? 'text-primary' : 'text-light' }}"></i>
+                                @for ($i = 1; $i <= 5; $i++)
+                                    <i
+                                        class="fas fa-star {{ $i <= $review->rating ? 'text-primary' : 'text-light' }}"></i>
                                 @endfor
                             </div>
                         </div>
@@ -508,4 +519,3 @@
     </div>
     <!-- Testimonial End -->
 @endsection
-

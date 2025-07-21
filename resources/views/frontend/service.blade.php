@@ -30,10 +30,14 @@
                                     <i class="fa fa-globe fa-4x text-primary"></i>
                                 </div>
                                 <div class="service-content">
-                                    <h5 class="mb-4">Luxury Transport</h5>
-                                    <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit
-                                        expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore
-                                        consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                    <h5 class="mb-4">WorldWide Tours</h5>
+                                    <p class="mb-0">
+                                        Northern Pakistan is a stunning region filled with towering mountains, lush valleys,
+                                        and rich culture.
+                                        Tour packages include everything: transport, food, accommodation, and guided tours.
+                                        You can explore scenic areas like Hunza, Swat, and Skardu.
+                                        Each journey is well-organized for a smooth experience.
+                                        From nature to history, there's something for everyone.
                                     </p>
                                 </div>
                             </div>
@@ -47,18 +51,23 @@
                                 </div>
                                 <div class="service-content">
                                     <h5 class="mb-4">Travel Guides</h5>
-                                    <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit
-                                        expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore
-                                        consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                    <p class="mb-0">
+                                        Professional travel guides ensure your journey is safe and informative.
+                                        Transport options include cars, coasters, and 4x4 jeeps.
+                                        For remote areas, domestic flights like Islamabad to Skardu are arranged.
+                                        Airport transfers and intercity travel are also included.
+                                        All routes are carefully planned for comfort.
+                                        Guides share local stories and cultural insights.
+                                        Your tour becomes more meaningful with expert guidance.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-6">
                     <div class="row g-4">
-
                         <div class="col-12">
                             <div
                                 class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
@@ -67,9 +76,14 @@
                                 </div>
                                 <div class="service-content">
                                     <h5 class="mb-4">Hotel Reservation</h5>
-                                    <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit
-                                        expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore
-                                        consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                    <p class="mb-0">
+                                        Enjoy cozy and clean accommodations throughout your trip.
+                                        Hotels are selected based on comfort, safety, and location.
+                                        You’ll stay close to tourist spots and scenic views.
+                                        Options range from luxury to traditional guesthouses.
+                                        Rooms are equipped with basic amenities and local charm.
+                                        Tour plans can be adjusted to match your comfort level.
+                                        A peaceful stay is part of the complete travel experience.
                                     </p>
                                 </div>
                             </div>
@@ -82,17 +96,31 @@
                                     <i class="fa fa-cog fa-4x text-primary"></i>
                                 </div>
                                 <div class="service-content">
-                                    <h5 class="mb-4">Photography</h5>
-                                    <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit
-                                        expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore
-                                        consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                    <h5 class="mb-4">Food</h5>
+                                    <p class="mb-0">
+                                        Tour packages offer delicious meals with local flavors.
+                                        Breakfast is usually included, and some tours include all meals.
+                                        Enjoy traditional dishes like chapli kebab and daal chawal.
+                                        Hunza’s apricot soup and walnut cake are popular treats.
+                                        Food is served in hygienic restaurants or hotel dining areas.
+                                        We also consider special dietary needs.
+                                        Great food makes your travel experience unforgettable.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-12">
+                    <div class="text-center">
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="{{ route('service') }}">Service
+                            More</a>
+                    </div>
+                </div>
             </div>
+
+
         </div>
     </div>
     <!-- Services End -->
@@ -119,7 +147,7 @@
                         <div class="mt-3">
                             <h5 class="mb-0">{{ $review->name }}</h5>
                             <div class="d-flex justify-content-center">
-                                @for($i = 1; $i <= 5; $i++)
+                                @for ($i = 1; $i <= 5; $i++)
                                     <i class="fas fa-star {{ $i <= $review->rating ? 'text-primary' : 'text-light' }}"></i>
                                 @endfor
                             </div>
