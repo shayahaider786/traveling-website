@@ -8,14 +8,22 @@ use App\Http\Controllers\Backend\GalleryController;
 use App\Http\Controllers\Backend\PackageController;
 use App\Http\Controllers\Backend\ReviewController;
 
+use App\Http\Controllers\Auth\LoginController;
+
 /*------------------------------------------
 --------------------------------------------
 All Frontend Routes List
 --------------------------------------------
 --------------------------------------------*/
 //
+// Auth::routes();
+
+Route::get('/login', [FrontendController::class, 'loginPage'])->name('login');
+Route::post('/login', [LoginController::class, 'login'])->name('login');
+Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::get('/', [FrontendController::class, 'index'])->name('index');
+
 Route::get('/about', [FrontendController::class, 'about'])->name('about');
 Route::get('/service', [FrontendController::class, 'service'])->name('service');
 Route::get('/destinations', [FrontendController::class, 'destinations'])->name('destination');
@@ -27,7 +35,6 @@ Route::get('/galleries', [FrontendController::class, 'gallery'])->name('gallery'
 Route::get('/review', [App\Http\Controllers\ReviewController::class, 'create'])->name('review.create');
 Route::post('/review', [App\Http\Controllers\ReviewController::class, 'store'])->name('review.store');
 
-Auth::routes();
 
 Route::middleware(['auth', 'user-access:user'])->group(function () {
 

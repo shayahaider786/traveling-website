@@ -87,6 +87,11 @@ class FrontendController extends Controller
         $galleries = Gallery::with('destination')->get();
         return view('frontend.gallery', compact('destinations', 'galleries'));
     }
+
+    public function loginPage()
+    {
+        return view('login');
+    }
 }
 
 
